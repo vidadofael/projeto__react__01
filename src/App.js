@@ -1,27 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 import Banner from './Componentes/Banner/Banner'; //import do Banner
 
+// Função que chama a aplicação App usando REACT
 function App() {
   return (
+    // Elementos criados com o REACT trazidos das funções importadas acima
     <div className="App">
       <Banner className="banner" />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
-
+// Exporta o app para execução e apresentação
 export default App;
